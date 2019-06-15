@@ -1,0 +1,837 @@
+
+/*BEGIN Mobile device media query*/
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	/*--------------------header-css------------------------*/
+
+	.logo img{
+		width: 125px;
+		height: 30px;
+	}
+	button.navbar-toggler{
+		position: relative;
+		float: right;
+		bottom: 25px;
+		outline: none;
+		cursor: pointer;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding: .5rem 0rem!important;
+	}
+	.navbar-toggler-icon{
+		width: 20px;
+		height: 20px;
+	}
+
+	.navbar-toggler{
+		border: none;
+		font-size: 18px;
+		padding: 0;
+	}
+	.header-btn{
+		margin:15px 0;
+	}
+	.navbar-nav{
+		margin-top: 25px;
+
+	}
+	.navbar-nav .nav-link::after {
+		background: transparent;
+
+	}
+
+	/*-------------------banner-section-css------------------------*/
+
+
+	.banner-wrapper .banner-text{
+		padding: 100px 0 0 0;
+	}
+
+	.banner-text h1{
+		font-size: 35px;
+		line-height: 50px;
+	}
+	.banner-text .top-heading{
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.banner-wrapper .header-img{
+		width: 100%;
+		height: auto;
+		margin:35px 0 0 -25px!important;
+	}
+	.banner-wrapper .services-section{
+		margin-top: 25px;
+	}
+	.services-section .services-bg {
+		margin-bottom: 30px;
+		padding: 15px 20px;
+		box-shadow: 0 1px 15px #e3f5f8, 0 4px 15px #e3f5f8;
+	}
+	.services-bg img {
+
+		width: 50px;
+		height: auto;
+	}
+
+	.services-desktop-view{
+		display: none;
+	}
+	.services-mobile-view{
+		display: block;
+	}
+
+	/*----------------------about-section-css----------------------*/
+
+	.about-slider img{
+		height: auto;
+	}
+
+	.about-outer-wrapper .right-side-content h2{
+		margin: 50px 0;
+	}
+
+	.box-title{
+		font-size: 16px;
+	}
+
+	.about-outer-wrapper{
+		margin: 100px 0 0 0;
+	}
+
+	.cover{
+		padding: 35px 40px;
+	}
+
+	.right-side-content {
+		padding: 0 35px;
+	}
+	.box-3{
+		margin: 50px 35px 50px 35px!important;
+	}
+
+	/*----------------------benefit-section-css----------------------*/
+
+	.benefits-section-wrapper{
+		margin-top: 75px!important;
+	}
+
+	.benefits-section-wrapper img{
+		width: 100%;
+		height: auto;
+	}
+	.benefits-section-wrapper h2{
+		margin-bottom: 65px;
+	}
+	.benefits-section-wrapper ul{
+		padding: 15px 15px 0 15px;
+		margin-bottom: 35px;
+	}
+	.benefits-section-wrapper ul li{
+		line-height: 30px;
+	}
+	.benefits-section-wrapper .btn-purple-grad, .btn-green-grad, .btn-orange-grad{
+		margin-bottom: 35px;
+	}
+	.benefits-section-wrapper .blue, .sky{
+		margin-top: 35px;
+	}
+
+	.desktop-view{
+		display: none;
+	}
+	.mobile-view{
+		display: block;
+	}
+
+
+	/*--------------------Testimonial-section--------------------------*/
+
+	.testimonials-wrapper{
+		padding: 50px 0;
+	}
+	.testimonials-wrapper .btn-btm{
+		margin: 35px 0 0 0;
+	}
+
+	.testimonial{
+		margin: 35px 0 0 0 ;
+	}
+
+	/*--------------------------Footer--------------------------------*/
+
+	.social-icons{
+		margin-bottom: 50px;
+	}
+
+	.footer-outer-wrapper .underline{
+		margin-bottom: 35px;
+	}
+	.copyright-txt{
+		margin-top: 35px;
+		text-align: left!important;
+	}
+	#button{
+		margin-bottom: 75px;
+	}
+
+	/*----------------------------------------------*/
+
+	/*About page css*/
+
+	/*-----------------------------------------------*/
+
+	.about-section-wrapper{
+		margin-top: 50px!important;
+	}
+	.about-section-wrapper h2{
+		margin-bottom: 50px;
+	}
+	.about-section-wrapper .our-story h1{
+		font-size: 20px;
+	}
+	.about-section-wrapper .our-story{
+		margin-bottom: 50px;
+	}
+	.about-section-wrapper .story-img{
+		margin-bottom: 50px;
+	}
+	.about-section-wrapper img{
+		width: 100%;
+		height: auto;
+	}
+	ul.slider.wow.fadeInLeft.slick-initialized.slick-slider.slick-dotted{
+		padding: 0;
+	}
+	.about-section-wrapper  .slider .slick-slide img{
+		margin-bottom: 30px;
+	}
+	ul.slick-dots{
+		right: 0;
+	}
+
+	.about-section-wrapper .our-story{
+		text-align: justify;
+	}
+
+	.about-section-desktop-view{
+		display: none;
+	}
+	.about-section-mobile-view{
+		display: block;
+	}
+
+
+	/*----------------------------------------------*/
+
+	/*Contact-us page css*/
+
+	/*-----------------------------------------------*/
+
+	.get-in-touch{
+		margin-top: 50px!important
+	}
+
+	.get-in-touch h2{
+		font-size: 20px;
+	}
+	.form-group label{
+		font-size: 13px;
+	}
+	.form-control{
+		width: 300px;
+		padding: 8px 16px;
+	}
+
+	select#identify{
+		width: 300px!important;
+	}
+	.contact-form .form-group{
+		margin-bottom: 25px;
+	}
+	.form-group textarea{
+		width: 300px;
+	}
+
+	.form-check-input{
+		margin-top: 0px;
+
+	}
+	#existingAssociate-error{
+		top: 15px;
+	}
+	.get-in-touch .submit-btn{
+		margin-bottom: 75px;
+	}
+	.contact-detail .co h3{
+		font-size: 16px;
+	}
+	.co{
+		margin: 0;
+		display: block;
+	}
+	.icons{
+		margin-bottom: 25px;
+	}
+	.contact-detail-bg{
+		text-align: center;
+		padding: 25px;
+	}
+
+	.contact-form .form-check label{
+		margin-top: 5px;
+	}
+
+	.contact-form .form-check{
+		margin-bottom: 50px;
+
+	}
+
+
+
+
+	/*All buttons css*/
+
+	.btn-grad, .btn-purple-grad, .btn-blue-grad, .btn-green-grad, .btn-sky-grad, .btn-orange-grad{
+		font-size: 12px;
+		padding: 11px 0 11px;
+	}
+
+
+	/*common classes css*/
+
+	.header-title{
+		font-size: 30px;
+	}
+
+	.content-wrapper{
+		margin: 0 35px;
+	}
+
+	.title{
+		font-size: 26px;
+		line-height: 38px;
+	}
+	.sub-title{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.sm-btm-75{
+		margin-bottom: 75px;
+	}
+
+}
+
+
+
+/*BEGIN Ipad-Portrait media query*/
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+
+	/*-------------------------header css------------------------*/
+	button.navbar-toggler{
+		position: relative;
+		float: right;
+		bottom: 25px;
+		outline: none;
+		cursor: pointer;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding: .5rem 0rem!important;
+	}
+	
+	.navbar-toggler{
+		border: none;
+		font-size: 18px;
+		padding: 0;
+	}
+	.header-btn{
+		margin:15px 0;
+	}
+
+	.navbar-toggler-icon{
+		width: 20px;
+		height: 20px;
+	}
+
+	.navbar-nav{
+		margin-top: 25px;
+
+	}
+	
+	.navbar-nav .nav-link::after {
+		background: transparent;
+
+	}
+
+
+	
+
+	/*--------------------banner-section----------------------------*/
+
+	.banner-wrapper .header-img{
+		width: 100%;
+		height: auto;
+		margin: 65px 0 0 0px;
+	}
+
+	.banner-wrapper .banner-text{
+		padding: 100px 0 0 0;
+	}
+	.banner-text h1{
+		font-size: 35px;
+		line-height: 50px;
+	}
+	.banner-text .top-heading{
+		font-size: 20px;
+		line-height: 32px;
+	}
+
+	.services-bg img{
+		margin-bottom: 17px;
+		width: 50px;
+		height: auto;
+	}
+	.services-bg{
+		padding: 22px 10px 17px 10px;
+	}
+	.services-section .col-md-2{
+		margin: 0 20px 0 0;
+	}
+	.banner-wrapper .services-section{
+		margin-top: 0;
+	}
+	.services-section h2{
+		margin-bottom: 25px;
+	}
+	.services-section .title{
+		margin-top: 50px;
+
+	}
+
+	/*---------------------------About-section-----------------------------*/
+
+	.about-outer-wrapper .ipad-about-slider{
+		display: block
+	}
+	.about-outer-wrapper .desktop-about-slider{
+		display: none;
+	}
+
+
+
+	.about-outer-wrapper{
+		margin: 125px 0 0 0;
+	}
+
+	.about-slider img {
+		width: 496px;
+		height: 765px;
+	}
+
+	.right-side-content {
+		padding-left: 35px;
+	}
+
+	.cover{
+		padding: 15px 24px;
+		margin: 35px 0 0 0;
+	}
+
+	.box-3 {
+		margin: 0px 35px 0 35px! important;
+	}
+
+	
+
+	.about-outer-wrapper .right-side-content h2 {
+		margin: 35px 0;
+	}
+
+	/*---------------------------benefit-section-----------------------------*/
+
+	.benefits-section-wrapper img{
+		width: 100%;
+		height: auto;
+	}
+
+	.benefits-section-wrapper ul{
+		padding: 25px 25px 0 15px;
+		margin-bottom: 35px;
+	}
+	.benefits-section-wrapper ul li{
+		line-height: 30px;
+	}
+
+	/*--------------------------Testimonial-section-------------------------*/
+
+	.testimonial{
+		padding: 35px 40px 35px 40px;
+	}
+
+	/*----------------------------------------------*/
+
+	/*About page css*/
+
+	/*-----------------------------------------------*/
+
+	.about-section-wrapper img{
+		width: 100%;
+		height: auto;
+	}
+
+	.about-section-wrapper .our-story h1{
+		font-size: 20px;
+	}
+
+	.about-section-wrapper .story-img{
+		margin-bottom: 75px;
+	}
+
+	.about-section-wrapper .our-story{
+		text-align: justify;
+	}
+
+
+	/*----------------------------------------------*/
+
+	/*Contact-Us page css*/
+
+	/*-----------------------------------------------*/
+
+	.get-in-touch h2{
+		font-size: 20px;
+	}
+	.form-group label{
+		font-size: 13px;
+	}
+	.contact-detail .co h3{
+		font-size: 16px;
+	}
+	.form-control{
+		width: 315px;
+	}
+	select#identify{
+		width: 315px!important;
+	}
+	.contact-detail-bg{
+		margin:0 0 50px -120px;
+		padding: 15px 5px 10px 20px;
+	}
+	.form-group textarea{
+		width: 315px;
+	}
+
+	.form-check-input{
+		margin-top: 0px;
+
+	}
+
+	#existingAssociate-error{
+		top: 15px;
+	}
+	.contact-form .form-check label{
+		margin-top: 5px;
+	}
+
+	.contact-form .form-check{
+		margin-bottom: 50px;
+
+	}
+
+
+
+	/*common classes css*/
+
+	.header-title{
+		font-size: 30px;
+	}
+
+	.content-wrapper{
+		margin: 0 35px;
+	}
+
+	.title{
+		font-size: 23px;
+		line-height: 35px;
+	}
+	.sub-title{
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	/*All buttons css*/
+
+	.btn-grad, .btn-purple-grad, .btn-blue-grad, .btn-green-grad, .btn-sky-grad, .btn-orange-grad{
+		font-size: 12px;
+		padding: 11px 0 11px;
+	}
+}
+
+
+
+/*Ipad-Landscape mode media query*/
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+
+	.banner-wrapper .banner-text{
+		padding: 100px 0 0 0;
+	}
+
+	.banner-wrapper .header-img{
+		width: 675px;
+		height: auto;
+		
+	}
+	.banner-text h1{
+		font-size: 35px;
+		line-height: 50px;
+	}
+
+	.services-bg{
+		padding: 15px 25px 15px 25px;
+	}
+
+	.services-section .col-md-2{
+		margin:  0 25px 0 0;
+	}
+
+	/*--------------------About-section------------------------*/
+
+	.about-outer-wrapper .right-side-content h2 {
+		margin: 50px 0;
+	}
+	.about-slider img {
+		width: 496px;
+		height: 850px;
+	}
+
+	/*--------------------benefit-section------------------------*/
+
+	.benefits-section-wrapper img{
+		width: 100%;
+		height: auto;
+	}
+
+	/*----------------------------------------------*/
+
+	/*About page css*/
+
+	/*-----------------------------------------------*/
+
+	.about-section-wrapper img{
+		width: 100%;
+		height: auto;
+	}
+
+	.about-section-wrapper .our-story{
+		text-align: justify;
+	}
+
+	/*----------------------------------------------*/
+
+	/*Contact-Us page css*/
+
+	/*-----------------------------------------------*/
+
+	.contact-detail-bg{
+		margin-left: -90px;
+	}
+	.form-group textarea{
+		width: 420px;
+	}
+	.form-control{
+		width: 420px;
+	}
+	select#identify{
+		width: 420px!important;
+	}
+
+	.form-check-input{
+		margin-top: 0px;
+
+	}
+
+	#existingAssociate-error{
+		top: 15px;
+	}
+	.contact-form .form-check label{
+		margin-top: 5px;
+	}
+
+	.contact-form .form-check{
+		margin-bottom: 50px;
+
+	}
+
+
+	.cover{
+		padding: 35px 24px;
+	}
+
+
+
+	/*common classes css*/
+
+	.header-title{
+		font-size: 30px;
+	}
+	.title{
+		font-size: 26px;
+		line-height: 38px;
+	}
+	.sub-title{
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+}
+
+
+
+
+
+/*BEGIN Ipad-pro portrait media query*/
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : portrait) {
+
+	/*--------------------header----------------------------*/
+
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding: 0 1.5rem !important;
+	}
+	.navbar-nav{
+		margin-top: 0px;
+	}
+
+
+	/*--------------------banner-section----------------------------*/
+
+	.banner-wrapper .banner-text{
+		padding: 100px 0 0 0;
+	}
+
+	.banner-wrapper .header-img{
+		width: 100%;
+		height: auto;
+		margin: 65px 0 0 -50px;
+	}
+	.banner-text h1{
+		font-size: 35px;
+		line-height: 50px;
+	}
+
+	.services-bg{
+		padding: 15px 25px 15px 25px;
+	}
+
+	.banner-text .desc-color{
+		margin-bottom: 35px;
+	}
+	.banner-text .top-heading{
+		font-size: 20px;
+		line-height: 32px;
+	}
+	.services-section .col-md-2{
+		margin: 0 25px 0 0;
+	}
+	.banner-wrapper .services-section{
+		margin-top: -65px;
+	}
+
+
+	/*-------------------------about-section----------------------------*/
+
+	.about-outer-wrapper{
+		margin: 150px 0 0 0;
+	}
+
+	.cover{
+		padding: 25px 40px;
+	}
+	.box-title{
+		font-size: 16px;
+	}
+	.about-outer-wrapper .right-side-content h2{
+		margin: 50px 0;
+	}
+
+	.about-outer-wrapper .ipad-about-slider{
+		display: block
+	}
+	.about-outer-wrapper .desktop-about-slider{
+		display: none;
+	}
+
+	/*----------------------------------------------*/
+
+	/*About page css*/
+
+	/*-----------------------------------------------*/
+
+	.about-section-wrapper .our-story h1{
+		font-size: 20px;
+	}
+
+
+	
+	/*----------------------------------------------*/
+
+	/*Contact-Us page css*/
+
+	/*-----------------------------------------------*/
+
+	.contact-detail-bg{
+		margin-left: -90px;
+	}
+
+	.form-control{
+		width: 420px;
+	}
+
+	select#identify{
+		width: 420px!important;
+	}
+	.form-group textarea{
+		width: 420px;
+	}
+	
+
+
+
+
+	/*common classes css*/
+
+	.header-title{
+		font-size: 30px;
+	}
+
+	.content-wrapper{
+		margin: 0 100px;
+	}
+
+	.title{
+		font-size: 26px;
+		line-height: 38px;
+	}
+	.sub-title{
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+}
